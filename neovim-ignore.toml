@@ -1,0 +1,35 @@
+# Neovim Ignore List
+#
+# Filetypes that should never trigger parser installation.
+# These are Neovim UI elements, plugin buffers, and virtual
+# filetypes that will never have tree-sitter parsers.
+#
+# Format: list of Neovim filetype strings
+
+[ignore]
+filetypes = [
+  "blink-cmp-menu",
+  "checkhealth",
+  "fugitive",
+  "git",
+  "gitcommit",
+  "help",
+  "lazy",
+  "lspinfo",
+  "man",
+  "mason",
+  "netrw",
+  "noice",
+  "notify",
+  "oil",
+  "packer",
+  "qf",
+  "snacks_notif",
+  "snacks_dashboard",
+  "snacks_terminal",
+  "startuptime",
+  "TelescopePrompt",
+  "toggleterm",
+  "Trouble",
+  "undotree",
+]

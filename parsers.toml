@@ -1,0 +1,1020 @@
+# Tree-sitter Parser Registry
+#
+# A mapping of parser names to their source repositories.
+# This file is editor-agnostic. Any tool that needs to find,
+# download, or compile tree-sitter parsers can use it.
+#
+# Fields:
+#   url       Git repository containing the parser grammar
+#   location  Subdirectory within the repo (for mono-repos)
+#
+# 326 parsers
+# Initially seeded from nvim-treesitter (Apache-2.0). Now maintained independently.
+
+[ada]
+url = "https://github.com/briot/tree-sitter-ada"
+
+[agda]
+url = "https://github.com/tree-sitter/tree-sitter-agda"
+
+[angular]
+url = "https://github.com/dlvandenberg/tree-sitter-angular"
+
+[apex]
+url = "https://github.com/aheber/tree-sitter-sfapex"
+location = "apex"
+
+[arduino]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-arduino"
+
+[asm]
+url = "https://github.com/RubixDev/tree-sitter-asm"
+
+[astro]
+url = "https://github.com/virchau13/tree-sitter-astro"
+
+[authzed]
+url = "https://github.com/mleonidas/tree-sitter-authzed"
+
+[awk]
+url = "https://github.com/Beaglefoot/tree-sitter-awk"
+
+[bash]
+url = "https://github.com/tree-sitter/tree-sitter-bash"
+
+[bass]
+url = "https://github.com/vito/tree-sitter-bass"
+
+[beancount]
+url = "https://github.com/polarmutex/tree-sitter-beancount"
+
+[bibtex]
+url = "https://github.com/latex-lsp/tree-sitter-bibtex"
+
+[bicep]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-bicep"
+
+[bitbake]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-bitbake"
+
+[blade]
+url = "https://github.com/EmranMR/tree-sitter-blade"
+
+[bp]
+url = "https://github.com/ambroisie/tree-sitter-bp"
+
+[bpftrace]
+url = "https://github.com/sgruszka/tree-sitter-bpftrace"
+
+[brightscript]
+url = "https://github.com/ajdelcimmuto/tree-sitter-brightscript"
+
+[c]
+url = "https://github.com/tree-sitter/tree-sitter-c"
+
+[c3]
+url = "https://github.com/c3lang/tree-sitter-c3"
+
+[c_sharp]
+url = "https://github.com/tree-sitter/tree-sitter-c-sharp"
+
+[caddy]
+url = "https://github.com/opa-oz/tree-sitter-caddy"
+
+[cairo]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-cairo"
+
+[capnp]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-capnp"
+
+[chatito]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-chatito"
+
+[circom]
+url = "https://github.com/Decurity/tree-sitter-circom"
+
+[clojure]
+url = "https://github.com/sogaiu/tree-sitter-clojure"
+
+[cmake]
+url = "https://github.com/uyha/tree-sitter-cmake"
+
+[comment]
+url = "https://github.com/stsewd/tree-sitter-comment"
+
+[commonlisp]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-commonlisp"
+
+[cooklang]
+url = "https://github.com/addcninblue/tree-sitter-cooklang"
+
+[corn]
+url = "https://github.com/jakestanger/tree-sitter-corn"
+
+[cpon]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-cpon"
+
+[cpp]
+url = "https://github.com/tree-sitter/tree-sitter-cpp"
+
+[css]
+url = "https://github.com/tree-sitter/tree-sitter-css"
+
+[csv]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-csv"
+location = "csv"
+
+[cuda]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-cuda"
+
+[cue]
+url = "https://github.com/eonpatapon/tree-sitter-cue"
+
+[cylc]
+url = "https://github.com/elliotfontaine/tree-sitter-cylc"
+
+[d]
+url = "https://github.com/gdamore/tree-sitter-d"
+
+[dart]
+url = "https://github.com/UserNobody14/tree-sitter-dart"
+
+[desktop]
+url = "https://github.com/ValdezFOmar/tree-sitter-desktop"
+
+[devicetree]
+url = "https://github.com/joelspadin/tree-sitter-devicetree"
+
+[dhall]
+url = "https://github.com/jbellerb/tree-sitter-dhall"
+
+[diff]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-diff"
+
+[disassembly]
+url = "https://github.com/ColinKennedy/tree-sitter-disassembly"
+
+[djot]
+url = "https://github.com/treeman/tree-sitter-djot"
+
+[dockerfile]
+url = "https://github.com/camdencheek/tree-sitter-dockerfile"
+
+[dot]
+url = "https://github.com/rydesun/tree-sitter-dot"
+
+[doxygen]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-doxygen"
+
+[dtd]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-xml"
+location = "dtd"
+
+[earthfile]
+url = "https://github.com/glehmann/tree-sitter-earthfile"
+
+[ebnf]
+url = "https://github.com/RubixDev/ebnf"
+location = "crates/tree-sitter-ebnf"
+
+[editorconfig]
+url = "https://github.com/ValdezFOmar/tree-sitter-editorconfig"
+
+[eds]
+url = "https://github.com/uyha/tree-sitter-eds"
+
+[eex]
+url = "https://github.com/connorlay/tree-sitter-eex"
+
+[elixir]
+url = "https://github.com/elixir-lang/tree-sitter-elixir"
+
+[elm]
+url = "https://github.com/elm-tooling/tree-sitter-elm"
+
+[elsa]
+url = "https://github.com/glapa-grossklag/tree-sitter-elsa"
+
+[elvish]
+url = "https://github.com/elves/tree-sitter-elvish"
+
+[embedded_template]
+url = "https://github.com/tree-sitter/tree-sitter-embedded-template"
+
+[enforce]
+url = "https://github.com/simonvic/tree-sitter-enforce"
+
+[erlang]
+url = "https://github.com/WhatsApp/tree-sitter-erlang"
+
+[facility]
+url = "https://github.com/FacilityApi/tree-sitter-facility"
+
+[faust]
+url = "https://github.com/khiner/tree-sitter-faust"
+
+[fennel]
+url = "https://github.com/alexmozaidze/tree-sitter-fennel"
+
+[fidl]
+url = "https://github.com/google/tree-sitter-fidl"
+
+[firrtl]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-firrtl"
+
+[fish]
+url = "https://github.com/ram02z/tree-sitter-fish"
+
+[foam]
+url = "https://github.com/FoamScience/tree-sitter-foam"
+
+[forth]
+url = "https://github.com/AlexanderBrevig/tree-sitter-forth"
+
+[fortran]
+url = "https://github.com/stadelmanma/tree-sitter-fortran"
+
+[fsh]
+url = "https://github.com/mgramigna/tree-sitter-fsh"
+
+[fsharp]
+url = "https://github.com/ionide/tree-sitter-fsharp"
+location = "fsharp"
+
+[func]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-func"
+
+[gap]
+url = "https://github.com/gap-system/tree-sitter-gap"
+
+[gaptst]
+url = "https://github.com/gap-system/tree-sitter-gaptst"
+
+[gdscript]
+url = "https://github.com/PrestonKnopp/tree-sitter-gdscript"
+
+[gdshader]
+url = "https://github.com/airblast-dev/tree-sitter-gdshader"
+
+[git_config]
+url = "https://github.com/the-mikedavis/tree-sitter-git-config"
+
+[git_rebase]
+url = "https://github.com/the-mikedavis/tree-sitter-git-rebase"
+
+[gitattributes]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-gitattributes"
+
+[gitcommit]
+url = "https://github.com/gbprod/tree-sitter-gitcommit"
+
+[gitignore]
+url = "https://github.com/shunsambongi/tree-sitter-gitignore"
+
+[gleam]
+url = "https://github.com/gleam-lang/tree-sitter-gleam"
+
+[glimmer]
+url = "https://github.com/ember-tooling/tree-sitter-glimmer"
+
+[glimmer_javascript]
+url = "https://github.com/NullVoxPopuli/tree-sitter-glimmer-javascript"
+
+[glimmer_typescript]
+url = "https://github.com/NullVoxPopuli/tree-sitter-glimmer-typescript"
+
+[glsl]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-glsl"
+
+[gn]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-gn"
+
+[gnuplot]
+url = "https://github.com/dpezto/tree-sitter-gnuplot"
+
+[go]
+url = "https://github.com/tree-sitter/tree-sitter-go"
+
+[goctl]
+url = "https://github.com/chaozwn/tree-sitter-goctl"
+
+[godot_resource]
+url = "https://github.com/PrestonKnopp/tree-sitter-godot-resource"
+
+[gomod]
+url = "https://github.com/camdencheek/tree-sitter-go-mod"
+
+[gosum]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-go-sum"
+
+[gotmpl]
+url = "https://github.com/ngalaiko/tree-sitter-go-template"
+
+[gowork]
+url = "https://github.com/omertuc/tree-sitter-go-work"
+
+[gpg]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-gpg-config"
+
+[graphql]
+url = "https://github.com/bkegley/tree-sitter-graphql"
+
+[gren]
+url = "https://github.com/MaeBrooks/tree-sitter-gren"
+
+[groovy]
+url = "https://github.com/murtaza64/tree-sitter-groovy"
+
+[groq]
+url = "https://github.com/ajrussellaudio/tree-sitter-groq"
+
+[gstlaunch]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-gstlaunch"
+
+[hack]
+url = "https://github.com/slackhq/tree-sitter-hack"
+
+[hare]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-hare"
+
+[haskell]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-haskell"
+
+[haskell_persistent]
+url = "https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent"
+
+[hcl]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-hcl"
+
+[heex]
+url = "https://github.com/connorlay/tree-sitter-heex"
+
+[helm]
+url = "https://github.com/ngalaiko/tree-sitter-go-template"
+location = "dialects/helm"
+
+[hjson]
+url = "https://github.com/winston0410/tree-sitter-hjson"
+
+[hlsl]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-hlsl"
+
+[hlsplaylist]
+url = "https://github.com/Freed-Wu/tree-sitter-hlsplaylist"
+
+[hocon]
+url = "https://github.com/antosha417/tree-sitter-hocon"
+
+[hoon]
+url = "https://github.com/urbit-pilled/tree-sitter-hoon"
+
+[html]
+url = "https://github.com/tree-sitter/tree-sitter-html"
+
+[htmldjango]
+url = "https://github.com/interdependence/tree-sitter-htmldjango"
+
+[http]
+url = "https://github.com/rest-nvim/tree-sitter-http"
+
+[hurl]
+url = "https://github.com/pfeiferj/tree-sitter-hurl"
+
+[hyprlang]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"
+
+[idl]
+url = "https://github.com/cathaysia/tree-sitter-idl"
+
+[idris]
+url = "https://github.com/kayhide/tree-sitter-idris"
+
+[ini]
+url = "https://github.com/justinmk/tree-sitter-ini"
+
+[inko]
+url = "https://github.com/inko-lang/tree-sitter-inko"
+
+[ispc]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-ispc"
+
+[janet_simple]
+url = "https://github.com/sogaiu/tree-sitter-janet-simple"
+
+[java]
+url = "https://github.com/tree-sitter/tree-sitter-java"
+
+[javadoc]
+url = "https://github.com/rmuir/tree-sitter-javadoc"
+
+[javascript]
+url = "https://github.com/tree-sitter/tree-sitter-javascript"
+
+[jinja]
+url = "https://github.com/cathaysia/tree-sitter-jinja"
+location = "tree-sitter-jinja"
+
+[jinja_inline]
+url = "https://github.com/cathaysia/tree-sitter-jinja"
+location = "tree-sitter-jinja_inline"
+
+[jjdescription]
+url = "https://github.com/ribru17/tree-sitter-jjdescription"
+
+[jq]
+url = "https://github.com/flurie/tree-sitter-jq"
+
+[jsdoc]
+url = "https://github.com/tree-sitter/tree-sitter-jsdoc"
+
+[json]
+url = "https://github.com/tree-sitter/tree-sitter-json"
+
+[json5]
+url = "https://github.com/Joakker/tree-sitter-json5"
+
+[jsonnet]
+url = "https://github.com/sourcegraph/tree-sitter-jsonnet"
+
+[julia]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-julia"
+
+[just]
+url = "https://github.com/IndianBoy42/tree-sitter-just"
+
+[kcl]
+url = "https://github.com/kcl-lang/tree-sitter-kcl"
+
+[kconfig]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-kconfig"
+
+[kdl]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-kdl"
+
+[kitty]
+url = "https://github.com/OXY2DEV/tree-sitter-kitty"
+
+[kos]
+url = "https://github.com/kos-lang/tree-sitter-kos"
+
+[kotlin]
+url = "https://github.com/fwcd/tree-sitter-kotlin"
+
+[koto]
+url = "https://github.com/koto-lang/tree-sitter-koto"
+
+[kusto]
+url = "https://github.com/Willem-J-an/tree-sitter-kusto"
+
+[lalrpop]
+url = "https://github.com/traxys/tree-sitter-lalrpop"
+
+[latex]
+url = "https://github.com/latex-lsp/tree-sitter-latex"
+
+[ledger]
+url = "https://github.com/cbarrete/tree-sitter-ledger"
+
+[leo]
+url = "https://github.com/r001/tree-sitter-leo"
+
+[linkerscript]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript"
+
+[liquid]
+url = "https://github.com/hankthetank27/tree-sitter-liquid"
+
+[liquidsoap]
+url = "https://github.com/savonet/tree-sitter-liquidsoap"
+
+[llvm]
+url = "https://github.com/benwilliamgraham/tree-sitter-llvm"
+
+[lua]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-lua"
+
+[luadoc]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-luadoc"
+
+[luap]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-luap"
+
+[luau]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-luau"
+
+[m68k]
+url = "https://github.com/grahambates/tree-sitter-m68k"
+
+[make]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-make"
+
+[markdown]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
+location = "tree-sitter-markdown"
+
+[markdown_inline]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
+location = "tree-sitter-markdown-inline"
+
+[matlab]
+url = "https://github.com/acristoffers/tree-sitter-matlab"
+
+[menhir]
+url = "https://github.com/Kerl13/tree-sitter-menhir"
+
+[mermaid]
+url = "https://github.com/monaqa/tree-sitter-mermaid"
+
+[meson]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-meson"
+
+[mlir]
+url = "https://github.com/artagnon/tree-sitter-mlir"
+
+[muttrc]
+url = "https://github.com/neomutt/tree-sitter-muttrc"
+
+[nasm]
+url = "https://github.com/naclsn/tree-sitter-nasm"
+
+[nginx]
+url = "https://github.com/opa-oz/tree-sitter-nginx"
+
+[nickel]
+url = "https://github.com/nickel-lang/tree-sitter-nickel"
+
+[nim]
+url = "https://github.com/alaviss/tree-sitter-nim"
+
+[nim_format_string]
+url = "https://github.com/aMOPel/tree-sitter-nim-format-string"
+
+[ninja]
+url = "https://github.com/alemuller/tree-sitter-ninja"
+
+[nix]
+url = "https://github.com/nix-community/tree-sitter-nix"
+
+[nqc]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-nqc"
+
+[nu]
+url = "https://github.com/nushell/tree-sitter-nu"
+
+[objc]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-objc"
+
+[objdump]
+url = "https://github.com/ColinKennedy/tree-sitter-objdump"
+
+[ocaml]
+url = "https://github.com/tree-sitter/tree-sitter-ocaml"
+location = "grammars/ocaml"
+
+[ocaml_interface]
+url = "https://github.com/tree-sitter/tree-sitter-ocaml"
+location = "grammars/interface"
+
+[ocamllex]
+url = "https://github.com/atom-ocaml/tree-sitter-ocamllex"
+
+[odin]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-odin"
+
+[pascal]
+url = "https://github.com/Isopod/tree-sitter-pascal"
+
+[passwd]
+url = "https://github.com/ath3/tree-sitter-passwd"
+
+[pem]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-pem"
+
+[perl]
+url = "https://github.com/tree-sitter-perl/tree-sitter-perl"
+
+[php]
+url = "https://github.com/tree-sitter/tree-sitter-php"
+location = "php"
+
+[php_only]
+url = "https://github.com/tree-sitter/tree-sitter-php"
+location = "php_only"
+
+[phpdoc]
+url = "https://github.com/claytonrcarter/tree-sitter-phpdoc"
+
+[pioasm]
+url = "https://github.com/leo60228/tree-sitter-pioasm"
+
+[pkl]
+url = "https://github.com/apple/tree-sitter-pkl"
+
+[po]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-po"
+
+[pod]
+url = "https://github.com/tree-sitter-perl/tree-sitter-pod"
+
+[poe_filter]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-poe-filter"
+
+[pony]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-pony"
+
+[powershell]
+url = "https://github.com/airbus-cert/tree-sitter-powershell"
+
+[printf]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-printf"
+
+[prisma]
+url = "https://github.com/victorhqc/tree-sitter-prisma"
+
+[problog]
+url = "https://github.com/foxyseta/tree-sitter-prolog"
+location = "grammars/problog"
+
+[prolog]
+url = "https://github.com/foxyseta/tree-sitter-prolog"
+location = "grammars/prolog"
+
+[promql]
+url = "https://github.com/MichaHoffmann/tree-sitter-promql"
+
+[properties]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-properties"
+
+[proto]
+url = "https://github.com/coder3101/tree-sitter-proto"
+
+[prql]
+url = "https://github.com/PRQL/tree-sitter-prql"
+
+[psv]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-csv"
+location = "psv"
+
+[pug]
+url = "https://github.com/zealot128/tree-sitter-pug"
+
+[puppet]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-puppet"
+
+[purescript]
+url = "https://github.com/postsolar/tree-sitter-purescript"
+
+[pymanifest]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-pymanifest"
+
+[python]
+url = "https://github.com/tree-sitter/tree-sitter-python"
+
+[ql]
+url = "https://github.com/tree-sitter/tree-sitter-ql"
+
+[qmldir]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-qmldir"
+
+[qmljs]
+url = "https://github.com/yuja/tree-sitter-qmljs"
+
+[query]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-query"
+
+[r]
+url = "https://github.com/r-lib/tree-sitter-r"
+
+[racket]
+url = "https://github.com/6cdh/tree-sitter-racket"
+
+[ralph]
+url = "https://github.com/alephium/tree-sitter-ralph"
+
+[rasi]
+url = "https://github.com/Fymyte/tree-sitter-rasi"
+
+[razor]
+url = "https://github.com/tris203/tree-sitter-razor"
+
+[rbs]
+url = "https://github.com/joker1007/tree-sitter-rbs"
+
+[re2c]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-re2c"
+
+[readline]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-readline"
+
+[regex]
+url = "https://github.com/tree-sitter/tree-sitter-regex"
+
+[rego]
+url = "https://github.com/FallenAngel97/tree-sitter-rego"
+
+[requirements]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-requirements"
+
+[rescript]
+url = "https://github.com/rescript-lang/tree-sitter-rescript"
+
+[rifleconf]
+url = "https://github.com/purarue/tree-sitter-rifleconf"
+
+[rnoweb]
+url = "https://github.com/bamonroe/tree-sitter-rnoweb"
+
+[robot]
+url = "https://github.com/Hubro/tree-sitter-robot"
+
+[robots_txt]
+url = "https://github.com/opa-oz/tree-sitter-robots-txt"
+
+[roc]
+url = "https://github.com/faldor20/tree-sitter-roc"
+
+[ron]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-ron"
+
+[rst]
+url = "https://github.com/stsewd/tree-sitter-rst"
+
+[ruby]
+url = "https://github.com/tree-sitter/tree-sitter-ruby"
+
+[runescript]
+url = "https://github.com/2004Scape/tree-sitter-runescript"
+
+[rust]
+url = "https://github.com/tree-sitter/tree-sitter-rust"
+
+[scala]
+url = "https://github.com/tree-sitter/tree-sitter-scala"
+
+[scfg]
+url = "https://github.com/rockorager/tree-sitter-scfg"
+
+[scheme]
+url = "https://github.com/6cdh/tree-sitter-scheme"
+
+[scss]
+url = "https://github.com/serenadeai/tree-sitter-scss"
+
+[sflog]
+url = "https://github.com/aheber/tree-sitter-sfapex"
+location = "sflog"
+
+[slang]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-slang"
+
+[slim]
+url = "https://github.com/theoo/tree-sitter-slim"
+
+[slint]
+url = "https://github.com/slint-ui/tree-sitter-slint"
+
+[smali]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-smali"
+
+[smithy]
+url = "https://github.com/indoorvivants/tree-sitter-smithy"
+
+[snakemake]
+url = "https://github.com/osthomas/tree-sitter-snakemake"
+
+[snl]
+url = "https://github.com/minijackson/tree-sitter-snl"
+
+[solidity]
+url = "https://github.com/JoranHonig/tree-sitter-solidity"
+
+[soql]
+url = "https://github.com/aheber/tree-sitter-sfapex"
+location = "soql"
+
+[sosl]
+url = "https://github.com/aheber/tree-sitter-sfapex"
+location = "sosl"
+
+[sourcepawn]
+url = "https://github.com/nilshelmig/tree-sitter-sourcepawn"
+
+[sparql]
+url = "https://github.com/GordianDziwis/tree-sitter-sparql"
+
+[sproto]
+url = "https://github.com/hanxi/tree-sitter-sproto"
+
+[sql]
+url = "https://github.com/derekstride/tree-sitter-sql"
+
+[squirrel]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-squirrel"
+
+[ssh_config]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-ssh-config"
+
+[starlark]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-starlark"
+
+[strace]
+url = "https://github.com/sigmaSd/tree-sitter-strace"
+
+[styled]
+url = "https://github.com/mskelton/tree-sitter-styled"
+
+[supercollider]
+url = "https://github.com/madskjeldgaard/tree-sitter-supercollider"
+
+[superhtml]
+url = "https://github.com/kristoff-it/superhtml"
+location = "tree-sitter-superhtml"
+
+[surface]
+url = "https://github.com/connorlay/tree-sitter-surface"
+
+[svelte]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-svelte"
+
+[sway]
+url = "https://github.com/FuelLabs/tree-sitter-sway"
+
+[swift]
+url = "https://github.com/alex-pinkus/tree-sitter-swift"
+
+[sxhkdrc]
+url = "https://github.com/RaafatTurki/tree-sitter-sxhkdrc"
+
+[systemtap]
+url = "https://github.com/ok-ryoko/tree-sitter-systemtap"
+
+[systemverilog]
+url = "https://github.com/gmlarumbe/tree-sitter-systemverilog"
+
+[t32]
+url = "https://github.com/xasc/tree-sitter-t32"
+
+[tablegen]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-tablegen"
+
+[tact]
+url = "https://github.com/tact-lang/tree-sitter-tact"
+
+[tcl]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-tcl"
+
+[teal]
+url = "https://github.com/euclidianAce/tree-sitter-teal"
+
+[templ]
+url = "https://github.com/vrischmann/tree-sitter-templ"
+
+[tera]
+url = "https://github.com/uncenter/tree-sitter-tera"
+
+[terraform]
+url = "https://github.com/MichaHoffmann/tree-sitter-hcl"
+location = "dialects/terraform"
+
+[textproto]
+url = "https://github.com/PorterAtGoogle/tree-sitter-textproto"
+
+[thrift]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-thrift"
+
+[tiger]
+url = "https://github.com/ambroisie/tree-sitter-tiger"
+
+[tlaplus]
+url = "https://github.com/tlaplus-community/tree-sitter-tlaplus"
+
+[tmux]
+url = "https://github.com/Freed-Wu/tree-sitter-tmux"
+
+[todotxt]
+url = "https://github.com/arnarg/tree-sitter-todotxt"
+
+[toml]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-toml"
+
+[tsv]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-csv"
+location = "tsv"
+
+[tsx]
+url = "https://github.com/tree-sitter/tree-sitter-typescript"
+location = "tsx"
+
+[turtle]
+url = "https://github.com/GordianDziwis/tree-sitter-turtle"
+
+[twig]
+url = "https://github.com/gbprod/tree-sitter-twig"
+
+[typescript]
+url = "https://github.com/tree-sitter/tree-sitter-typescript"
+location = "typescript"
+
+[typespec]
+url = "https://github.com/happenslol/tree-sitter-typespec"
+
+[typoscript]
+url = "https://github.com/Teddytrombone/tree-sitter-typoscript"
+
+[typst]
+url = "https://github.com/uben0/tree-sitter-typst"
+
+[udev]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-udev"
+
+[ungrammar]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-ungrammar"
+
+[unison]
+url = "https://github.com/kylegoetz/tree-sitter-unison"
+
+[usd]
+url = "https://github.com/ColinKennedy/tree-sitter-usd"
+
+[uxntal]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-uxntal"
+
+[v]
+url = "https://github.com/vlang/v-analyzer"
+location = "tree_sitter_v"
+
+[vala]
+url = "https://github.com/vala-lang/tree-sitter-vala"
+
+[vento]
+url = "https://github.com/ventojs/tree-sitter-vento"
+
+[vhdl]
+url = "https://github.com/jpt13653903/tree-sitter-vhdl"
+
+[vhs]
+url = "https://github.com/charmbracelet/tree-sitter-vhs"
+
+[vim]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-vim"
+
+[vimdoc]
+url = "https://github.com/neovim/tree-sitter-vimdoc"
+
+[vrl]
+url = "https://github.com/belltoy/tree-sitter-vrl"
+
+[vue]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-vue"
+
+[wgsl]
+url = "https://github.com/szebniok/tree-sitter-wgsl"
+
+[wgsl_bevy]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-wgsl-bevy"
+
+[wing]
+url = "https://github.com/winglang/tree-sitter-wing"
+
+[wit]
+url = "https://github.com/bytecodealliance/tree-sitter-wit"
+
+[wxml]
+url = "https://github.com/BlockLune/tree-sitter-wxml"
+
+[xcompose]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-xcompose"
+
+[xml]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-xml"
+location = "xml"
+
+[xresources]
+url = "https://github.com/ValdezFOmar/tree-sitter-xresources"
+
+[yaml]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-yaml"
+
+[yang]
+url = "https://github.com/Hubro/tree-sitter-yang"
+
+[yuck]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-yuck"
+
+[zathurarc]
+url = "https://github.com/Freed-Wu/tree-sitter-zathurarc"
+
+[zig]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-zig"
+
+[ziggy]
+url = "https://github.com/kristoff-it/ziggy"
+location = "tree-sitter-ziggy"
+
+[ziggy_schema]
+url = "https://github.com/kristoff-it/ziggy"
+location = "tree-sitter-ziggy-schema"
+
+[zsh]
+url = "https://github.com/georgeharker/tree-sitter-zsh"
+

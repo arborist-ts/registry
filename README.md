@@ -17,16 +17,31 @@ tree-sitter parsers can use this as a data source.
 The core registry. Each section is a parser:
 
 ```toml
-[rust]
-url = "https://github.com/tree-sitter/tree-sitter-rust"
+[angular]
+url = "https://github.com/dlvandenberg/tree-sitter-angular"
+maintainers = ["@dlvandenberg"]
+requires = ["html", "html_tags"]
 
-[typescript]
-url = "https://github.com/tree-sitter/tree-sitter-typescript"
-location = "typescript"
+[apex]
+url = "https://github.com/aheber/tree-sitter-sfapex"
+location = "apex"
+maintainers = ["@aheber", "@xixiafinland"]
 ```
 
-- **url** — Git repository containing the grammar
-- **location** — Subdirectory for mono-repos (omitted when the grammar is at the repo root)
+| Field | Type | Notes |
+|---|---|---|
+| `url` | string | Git repository containing the grammar (required) |
+| `location` | string | Subdirectory for mono-repos (omitted when at repo root) |
+| `branch` | string | Non-default git branch hosting the grammar (rare) |
+| `generate` | bool | Whether the parser needs `tree-sitter generate` before build |
+| `maintainers` | string[] | GitHub @-handles of active maintainers |
+| `requires` | string[] | Other parsers this grammar depends on (e.g. for injections) |
+| `readme_note` | string | Human-readable note (gotchas, scope, dialect) |
+
+**Editor-neutral by design.** Revision pins, query-set compatibility, and tier
+opinions live downstream in editor-specific consumers (e.g. arborist.nvim's
+`registry/pins.toml`). This registry stays a pure description of what
+grammars exist and where to find them.
 
 ### neovim-filetypes.toml
 
@@ -98,15 +113,16 @@ my_parser = ["nvim_filetype1", "nvim_filetype2"]
 The initial data was extracted from
 [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 (Apache-2.0), which was archived in April 2026. This registry is an
-independent fork of that data — it is maintained separately and is not synced
-from upstream.
+independent fork of that data — it is maintained separately and may be
+re-synced from upstream snapshots via `scripts/sync.lua`.
 
 The extracted data consists of factual mappings (parser names to repository
-URLs and Neovim filetype associations) which are not copyrightable expression.
-Attribution is provided here as a courtesy.
+URLs, maintainers, dependencies, and Neovim filetype associations) which are
+not copyrightable expression. Attribution is provided here as a courtesy.
 
-The `scripts/` directory contains the one-time import tool used to seed this
-registry. It is not part of ongoing maintenance.
+The `scripts/sync.lua` tool re-imports the data from nvim-treesitter `main`
+on demand. It is editor-neutral and intentionally drops upstream's
+nvim-specific fields (revision pins, tier, filetype overrides).
 
 ## License
 

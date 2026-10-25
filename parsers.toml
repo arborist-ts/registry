@@ -733,6 +733,21 @@ url = "https://github.com/artagnon/tree-sitter-mlir"
 generate = true
 maintainers = ["@artagnon"]
 
+[moonbit]
+url = "https://github.com/moonbitlang/tree-sitter-moonbit"
+requires = ["comment"]
+readme_note = "MoonBit source/interface files and moon.pkg"
+
+[moonbit_mbtp]
+url = "https://github.com/moonbitlang/tree-sitter-moonbit"
+location = "grammars/mbtp"
+readme_note = "MoonBit predicate files"
+
+[moonbit_quotation]
+url = "https://github.com/moonbitlang/tree-sitter-moonbit"
+location = "grammars/quotation"
+readme_note = "Quoted MoonBit grammar"
+
 [muttrc]
 url = "https://github.com/neomutt/tree-sitter-muttrc"
 maintainers = ["@Freed-Wu"]
